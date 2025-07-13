@@ -1,12 +1,33 @@
-# React + Vite
+# Word Battle – AI Web Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the source code for **Word Battle**, a web-based word challenge game developed with React and Vite. The game pits a human player against an AI in a turn-based word-building competition. Players take turns adding letters to a word sequence with the objective of forming valid English nouns that are at least four letters long.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Built with React and modern JavaScript (ES6+)
+- Interactive letter buttons displayed in a circular layout
+- Alternating turns between human player and AI
+- Basic scoring system with visual updates
+- Real-time round tracking
+- Word validation using an external dictionary API
+- Responsive and lightweight interface
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript (ES6+)
+- HTML5 & CSS3
+
+## Development Setup
+
+To run the project locally:
+
+```bash
+npm install
+npm run dev
+```
+
+## License
+
+This project is part of an academic thesis on the use of AI tools in web development. It is intended for educational and experimental purposes.
